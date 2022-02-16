@@ -1,0 +1,20 @@
+.toolbar-title {
+  margin-left: 10px;
+}
+
+.categories-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-item {
+  margin: 10px;
+  min-width: 80vw;
+  width: 80vw;
+}
+
+.category-item-name {
+  text-transform: capitalize;
+}
