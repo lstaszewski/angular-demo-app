@@ -1,4 +1,4 @@
-.toolbar-title {
+.toolbar .toolbar-title {
   margin-left: 10px;
 }
 
@@ -9,12 +9,12 @@
   align-items: center;
 }
 
-.category-item {
+.categories-wrapper .category-item {
   margin: 10px;
   min-width: 80vw;
   width: 80vw;
 }
 
-.category-item-name {
+.categories-wrapper .category-item .category-item-name {
   text-transform: capitalize;
 }
