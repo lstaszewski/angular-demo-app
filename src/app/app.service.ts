@@ -5,11 +5,14 @@ import { Observable } from 'rxjs';
 
 import { Categories, Joke } from './app';
 
+import { environment } from '../environments/environment';
+
+const { apiUrl } = environment;
+
 @Injectable()
 export class AppService {
-  apiUrl = 'https://api.chucknorris.io/jokes/'
-  categoriesUrl = `${this.apiUrl}categories`;
-  randomJokeByCategoryUrl = `${this.apiUrl}random`;
+  categoriesUrl = `${apiUrl}categories`;
+  randomJokeByCategoryUrl = `${apiUrl}random`;
 
   constructor(
     private http: HttpClient) {}
