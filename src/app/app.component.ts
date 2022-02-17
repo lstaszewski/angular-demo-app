@@ -6,13 +6,11 @@ import { AppService } from './app.service';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers: [AppService],
 })
 export class AppComponent implements OnInit {
   categories: string[] = [];
   currentJoke: string = '';
   currentCategory: string = '';
-  title = 'angular-demo-app';
 
   constructor(private appService: AppService) {}
 
