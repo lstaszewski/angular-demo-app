@@ -12,7 +12,7 @@
 .categories-wrapper .category-item {
   margin: 10px;
   min-width: 80vw;
-  width: 80vw;
+  /* width: 80vw; */
 }
 
 .categories-wrapper .category-item .category-item-name {
